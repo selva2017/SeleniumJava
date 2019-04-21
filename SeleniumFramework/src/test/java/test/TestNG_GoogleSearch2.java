@@ -13,11 +13,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestNG_GoogleSearch2 {
 
-	//	*******MAin method is Not required for TestNG ********
-	//	public static void main(String[] args) {
-	//		// TODO Auto-generated method stub
-	//		googleSearch();
-	//	}
 
 	WebDriver driver=null;
 
