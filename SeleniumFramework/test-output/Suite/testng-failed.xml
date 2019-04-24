@@ -15,6 +15,7 @@
     <classes>
       <class name="test.TestNG_GoogleSearch">
         <methods>
+          <include name="googleSearch"/>
           <include name="tearDownTest"/>
           <include name="setUpTest"/>
         </methods>

@@ -2,34 +2,20 @@
 <testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="14164" started-at="2019-04-21T00:01:52Z" finished-at="2019-04-21T00:02:07Z">
+  <suite name="Default suite" duration-ms="9036" started-at="2019-04-24T18:12:49Z" finished-at="2019-04-24T18:12:58Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="14164" started-at="2019-04-21T00:01:52Z" finished-at="2019-04-21T00:02:07Z">
-      <class name="test.TestNG_GoogleSearch">
-        <test-method status="PASS" signature="setUpTest()[pri:0, instance:test.TestNG_GoogleSearch@2ff4f00f]" name="setUpTest" is-config="true" duration-ms="3261" started-at="2019-04-20T20:01:52Z" finished-at="2019-04-20T20:01:56Z">
+    <test name="Default test" duration-ms="9036" started-at="2019-04-24T18:12:49Z" finished-at="2019-04-24T18:12:58Z">
+      <class name="test.TestNG_GoogleSearch2">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:test.TestNG_GoogleSearch2@17c68925]" name="setUpTest" is-config="true" duration-ms="3233" started-at="2019-04-24T14:12:49Z" finished-at="2019-04-24T14:12:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method status="PASS" signature="setUpTest()[pri:0, instance:test.TestNG_GoogleSearch2@c818063]" name="setUpTest" is-config="true" duration-ms="2120" started-at="2019-04-20T20:01:56Z" finished-at="2019-04-20T20:01:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpTest -->
-        <test-method status="PASS" signature="googleSearch()[pri:0, instance:test.TestNG_GoogleSearch@2ff4f00f]" name="googleSearch" duration-ms="2999" started-at="2019-04-20T20:01:58Z" finished-at="2019-04-20T20:02:01Z">
+        <test-method status="PASS" signature="googleSearch()[pri:0, instance:test.TestNG_GoogleSearch2@17c68925]" name="googleSearch" duration-ms="2495" started-at="2019-04-24T14:12:53Z" finished-at="2019-04-24T14:12:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleSearch -->
-        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:test.TestNG_GoogleSearch@2ff4f00f]" name="tearDownTest" is-config="true" duration-ms="2873" started-at="2019-04-20T20:02:01Z" finished-at="2019-04-20T20:02:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTest -->
-        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:test.TestNG_GoogleSearch2@c818063]" name="tearDownTest" is-config="true" duration-ms="2870" started-at="2019-04-20T20:02:04Z" finished-at="2019-04-20T20:02:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTest -->
-      </class> <!-- test.TestNG_GoogleSearch -->
-      <class name="test.TestNG_GoogleSearch2">
-        <test-method status="FAIL" signature="googleSearch3()[pri:0, instance:test.TestNG_GoogleSearch2@c818063]" name="googleSearch3" duration-ms="2192" started-at="2019-04-20T20:01:58Z" finished-at="2019-04-20T20:02:00Z">
+        <test-method status="FAIL" signature="googleSearch3()[pri:0, instance:test.TestNG_GoogleSearch2@17c68925]" name="googleSearch3" duration-ms="611" started-at="2019-04-24T14:12:55Z" finished-at="2019-04-24T14:12:56Z">
           <exception class="org.openqa.selenium.ElementNotVisibleException">
             <message>
               <![CDATA[element not visible
@@ -40,7 +26,7 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'SANTHOSH', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\selva\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: a5515b94c18202e68a1261ffc5443a29]]>
+Session ID: 6e91cb9b661c2367b8974c5fbed18db2]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not visible
@@ -51,7 +37,7 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'SANTHOSH', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\selva\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: a5515b94c18202e68a1261ffc5443a29
+Session ID: 6e91cb9b661c2367b8974c5fbed18db2
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -66,7 +52,7 @@ Session ID: a5515b94c18202e68a1261ffc5443a29
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
-	at test.TestNG_GoogleSearch2.googleSearch3(TestNG_GoogleSearch2.java:46)
+	at test.TestNG_GoogleSearch2.googleSearch3(TestNG_GoogleSearch2.java:41)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -77,16 +63,31 @@ Session ID: a5515b94c18202e68a1261ffc5443a29
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleSearch3 -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:test.TestNG_GoogleSearch2@17c68925]" name="tearDownTest" is-config="true" duration-ms="2678" started-at="2019-04-24T14:12:56Z" finished-at="2019-04-24T14:12:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
       </class> <!-- test.TestNG_GoogleSearch2 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
